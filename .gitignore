@@ -1,0 +1,11 @@
+.venv
+qdrant_mm_db
+qdrant_combined_db
+extracted_images
+extracted_images_with_info
+iframe_image_extraction
+extracted_text.csv
+image_descriptions.csv
+Proceduri_Interne
+*.pdf
+*.docx
