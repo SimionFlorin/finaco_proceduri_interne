@@ -14,7 +14,6 @@ from streamlit_pdf_viewer import pdf_viewer
 from download_pdfs import download_files_from_blob
 
 st.set_page_config(page_title="Asistent proceduri interne", layout="wide", initial_sidebar_state="auto", menu_items=None)
-print(st.secrets)
 OPENAI_API_KEY = st.secrets.OPENAI_API_KEY
 openai.api_key = st.secrets.OPENAI_API_KEY
 QDRANT_URL = st.secrets.QDRANT_URL
